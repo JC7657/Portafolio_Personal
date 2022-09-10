@@ -1,0 +1,115 @@
+/*General*/
+a {
+  color:inherit;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+h1 {
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 4rem;
+  text-shadow: 3px 3px black;
+}
+h2 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  text-shadow: 2px 2px black;
+}
+p {
+  font-size: 1.5rem;
+}
+
+.colored-section {
+  background-color: #54bab9;
+  color:white;
+}
+.white-section {
+  background-color: #f7ecde;
+  color: black;
+}
+
+/*Navbar*/
+.nav-item {
+  margin-right:40px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.navbar {
+
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.logo {
+  width:10rem;
+}
+@media (max-width:991px) {
+  .nav-item{
+    margin:0;
+  }
+}
+ /*Main Section*/
+ .btn-cv {
+   font-size: 1.12rem;
+   font-weight: bold;
+   margin-bottom: 1%;
+ }
+ .contact-icon {
+   font-size: 2.5rem;
+   margin-right: 2%;
+   transition: 0.2s;
+ }
+ .contact-icon:hover {
+   color: black;
+   text-shadow: 1.5px 1.5px white;
+ }
+ .main-content {
+   padding-top: 10%;
+ }
+.top-img {
+  position: relative;
+  width: 40vw;
+  top:1%;
+  left: 6%;
+}
+#top-section {
+  height: 100vh;
+  padding: 0 5%;
+}
+@media (max-width: 991px) {
+  .top-img {
+    left:0;
+    position: static;
+    width: 90%;
+  }
+  #top-section {
+    text-align: center;
+  }
+}
+
+/*About Section*/
+#about-section {
+  position: relative;
+}
+/*Skill Section*/
+.skill-img {
+  width: 10%;
+  transition: 0.2s;
+}
+.skill-img:hover{
+  width: 10.6%
+}
+/*Proyect Section*/
+.proyect-img {
+  width: 20%;
+}
