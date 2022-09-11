@@ -1,5 +1,5 @@
 # Portafolio_Personal
-Proyecto creado para funcionar como portafolio personal y carta de presentación.
-Tecnologías utilizadas hasta la fecha:
--HTML y CSS3
+Proyecto creado para funcionar como portafolio personal y carta de presentación.<br />
+Tecnologías utilizadas hasta la fecha:<br />
+-HTML y CSS3<br />
 -Bootstrap 5
