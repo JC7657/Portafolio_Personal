@@ -19,6 +19,13 @@
 </head>
 
 <body>
+  <!-- To top button -->
+  <a href="#top-section">
+    <button href="#top-section" type="button" name="button" class="btn btn-dark btn-toTop">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+  </a>
+  <!-- Home Section -->
   <section id="top-section" class="colored-section container-fluid">
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg colored-section">
@@ -29,9 +36,9 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item"><a href="#top-section" class="nav-link">Start</a></li>
-            <li class="nav-item"><a href="#top-section" class="nav-link">About Me</a></li>
-            <li class="nav-item"><a href="#top-section" class="nav-link">Portfolio</a></li>
-            <li class="nav-item"><a href="#top-section" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="#about-section" class="nav-link">About Me</a></li>
+            <li class="nav-item"><a href="#projects-section" class="nav-link">Portfolio</a></li>
+            <li class="nav-item"><a href="#contact-section" class="nav-link">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -41,9 +48,11 @@
           <h1>Juan Jerez</h1>
           <h2>Front-End Developer</h2>
           <p>I make websites according to your needs. A place where your ideas become a reality.</p>
-            <button type="button" name="btnCV" class="btn btn-dark btn-cv btn-lg"> Download CV</button> <br>
+          <div class="container btn-container">
+            <button type="button" name="btnCV" class="btn btn-dark btn-cv btn-lg"> Download CV</button>
             <a class="contact-icon" href="https://github.com/JC7657"><i class="fa-brands fa-github"></i></a>
             <a class="contact-icon" href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
         </div>
         <div class="col-lg">
           <img src="img/top-img.png" class="top-img">
@@ -52,15 +61,15 @@
     </div>
   </section>
 
-
-  <section id="about-section" class="white-section">
+  <!-- About Section -->
+  <section id="about-section" class="white-section container-fluid">
     <div class="about-info">
       <h2>About Me</h2>
-      <p>I'm a 21 year old Web Developer from Chile, also a graduated Analyst Programmer.
+      <p>I'm a 21 year old Web Developer from Chile, also a graduated Analyst Programmer. <br>
         I started learning the basics of programming in 2020, and in 2022 I began specializing in the world of web development.
         I make beautiful and responsive websites that will capture your ideas and motivations.</p>
     </div>
-    <div class="about-skills">
+    <div class="about-skills colored-section">
       <h2>My skills</h2>
       <img src="img/html.png" alt="" class="skill-img">
       <h3>HTML</h3>
@@ -74,9 +83,8 @@
       <h3>Git</h3>
     </div>
   </section>
-
-
-  <section id="proyects">
+  <!-- Portfolio Section -->
+  <section id="projects-section">
     <h2>My Portfolio</h2>
     <div class="proyect-container">
       <img src="img/placeholder.jpg" alt="" class="proyect-img">
@@ -96,7 +104,7 @@
   </section>
 
 
-  <section id="contact">
+  <section id="contact-section">
     <h2>Contact Me</h2>
     <h3>Let's work together!</h3>
     <form class="" action="index.html" method="post">
