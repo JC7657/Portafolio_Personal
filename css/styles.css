@@ -10,7 +10,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-  line-height: 1.5;
+  line-height: 1.3;
   font-weight: 400;
   font-size: 4rem;
   text-shadow: 3px 3px black;
@@ -22,28 +22,44 @@ h2 {
 }
 p {
   font-size: 1.5rem;
+  line-height: 1.7;
+}
+
+.btn-toTop {
+  position: fixed;
+  bottom: 3%;
+  right:2%;
+  z-index: 1;
+  border-radius: 100%;
+  height: 4rem;
+  width: 4rem;
+  font-size: 2rem;
 }
 
 .colored-section {
   background-color: #54bab9;
   color:white;
 }
+
+.container-fluid {
+  padding: 0 3%;
+}
+
 .white-section {
   background-color: #f7ecde;
   color: black;
 }
 
 /*Navbar*/
+.navbar {
+  padding-top: 3%
+}
 .nav-item {
   margin-right:40px;
 }
 
 .nav-link {
   color: white;
-}
-
-.navbar {
-
 }
 
 .navbar-nav {
@@ -59,6 +75,10 @@ p {
   }
 }
  /*Main Section*/
+ .btn-container {
+   display: flex;
+   padding: 0;
+ }
  .btn-cv {
    font-size: 1.12rem;
    font-weight: bold;
@@ -66,7 +86,7 @@ p {
  }
  .contact-icon {
    font-size: 2.5rem;
-   margin-right: 2%;
+   margin-left: 2%;
    transition: 0.2s;
  }
  .contact-icon:hover {
@@ -84,9 +104,23 @@ p {
 }
 #top-section {
   height: 100vh;
-  padding: 0 5%;
 }
 @media (max-width: 991px) {
+  .btn-container {
+    display:inline-block;
+    text-align: center;
+    padding: 0;
+  }
+
+  .btn-cv {
+    display: block;
+    margin: 2% auto;
+  }
+  .contact-icon {
+    font-size: 2.5rem;
+    margin: 0 1%;
+    transition: 0.2s;
+  }
   .top-img {
     left:0;
     position: static;
@@ -98,8 +132,14 @@ p {
 }
 
 /*About Section*/
+.about-info {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  padding: 6% 10%;
+
+}
 #about-section {
-  position: relative;
 }
 /*Skill Section*/
 .skill-img {
