@@ -13,7 +13,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;700&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
-  <!-- CSS Files Imports -->
+  <!-- Swiper CSS Import -->
+  <link rel="stylesheet" href="/css/swiper-bundle.min.css">
+  <!-- CSS Files Import -->
   <link rel="stylesheet" href="css/styles.css">
   <title>Juan Jerez</title>
 </head>
@@ -64,23 +66,38 @@
   <!-- About Section -->
   <section id="about-section" class="white-section container-fluid">
     <div class="about-info">
-      <h2>About Me</h2>
+      <h2>About me</h2>
       <p>I'm a 21 year old Web Developer from Chile, also a graduated Analyst Programmer. <br>
         I started learning the basics of programming in 2020, and in 2022 I began specializing in the world of web development.
         I make beautiful and responsive websites that will capture your ideas and motivations.</p>
     </div>
-    <div class="about-skills colored-section">
-      <h2>My skills</h2>
-      <img src="img/html.png" alt="" class="skill-img">
-      <h3>HTML</h3>
-      <img src="img/css.png" alt="" class="skill-img">
-      <h3>CSS</h3>
-      <img src="img/responsive.png" alt="" class="skill-img">
-      <h3>Responsive</h3>
-      <img src="img/js.png" alt="" class="skill-img">
-      <h3>Javascript</h3>
-      <img src="img/git.png" alt="" class="skill-img">
-      <h3>Git</h3>
+    <h2>My Skills</h2>
+    <div class="about-skills">
+      <div class="skill-container">
+        <img src="img/html.png" class="skill-img" />
+        <h3>HTML</h3>
+      </div>
+      <div class="skill-container">
+        <img src="img/css.png" class="skill-img" />
+        <h3>CSS</h3>
+      </div>
+      <div class="skill-container">
+        <img src="img/bootstrap.png" class="skill-img" />
+        <h3>Bootstrap 5</h3>
+      </div>
+      <div class="skill-container">
+        <img src="img/responsive.png" class="skill-img" />
+        <h3>Responsive</h3>
+      </div>
+      <div class="skill-container">
+        <img src="img/js.png" class="skill-img" />
+        <h3>JS/jQuery</h3>
+      </div>
+      <div class="skill-container">
+        <img src="img/git.png" class="skill-img" />
+        <h3>Git</h3>
+      </div>
+    </div>
     </div>
   </section>
   <!-- Portfolio Section -->
@@ -122,8 +139,10 @@
       </div>
     </form>
   </section>
-
-
+  <!-- Swiper JS Import -->
+  <script src="js/swiper-bundle.min.js" charset="utf-8"></script>
+  <!-- Javascript -->
+  <script src="js/script.js" charset="utf-8"></script>
 </body>
 
 </html>
