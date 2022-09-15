@@ -4,17 +4,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Bootstrap Imports -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   <!-- Font Awesome Import -->
   <script src="https://kit.fontawesome.com/98b31331fd.js" crossorigin="anonymous"></script>
   <!-- Google Fonts Imports -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;700&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
-  <!-- Swiper CSS Import -->
-  <link rel="stylesheet" href="/css/swiper-bundle.min.css">
+  <!-- Owl Carousel CSS Import -->
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/owl.theme.default.css">
+  <!-- Bootstrap Imports -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   <!-- CSS Files Import -->
   <link rel="stylesheet" href="css/styles.css">
   <title>Juan Jerez</title>
@@ -27,6 +28,7 @@
       <i class="fa-solid fa-arrow-up"></i>
     </button>
   </a>
+
   <!-- Home Section -->
   <section id="top-section" class="colored-section container-fluid">
     <div class="container-fluid">
@@ -49,10 +51,10 @@
         <div class="col-lg">
           <h1>Juan Jerez</h1>
           <h2>Front-End Developer</h2>
-          <p>I make websites according to your needs. A place where your ideas become a reality.</p>
+          <p class="big-paragraph">I make websites according to your needs. A place where your ideas become a reality.</p>
           <div class="container btn-container">
             <button type="button" name="btnCV" class="btn btn-dark btn-cv btn-lg"> Download CV</button>
-            <a class="contact-icon" href="https://github.com/JC7657"><i class="fa-brands fa-github"></i></a>
+            <a class="contact-icon" href=""><i class="fa-brands fa-github"></i></a>
             <a class="contact-icon" href="#"><i class="fa-brands fa-linkedin"></i></a>
           </div>
         </div>
@@ -67,9 +69,9 @@
   <section id="about-section" class="white-section container-fluid">
     <div class="about-info">
       <h2>About me</h2>
-      <p>I'm a 21 year old Web Developer from Chile, also a graduated Analyst Programmer. <br>
+      <p class="big-paragraph">I'm a 22 year old Web Developer from Chile, also a graduated Analyst Programmer. <br>
         I started learning the basics of programming in 2020, and in 2022 I began specializing in the world of web development.
-        I make beautiful and responsive websites that will capture your ideas and motivations.</p>
+        I make beautiful and responsive websites that will capture your vision and ideas.</p>
     </div>
     <h2>My Skills</h2>
     <div class="about-skills">
@@ -100,25 +102,81 @@
     </div>
     </div>
   </section>
+
   <!-- Portfolio Section -->
-  <section id="projects-section">
+  <section id="projects-section" class="colored-section">
     <h2>My Portfolio</h2>
-    <div class="proyect-container">
-      <img src="img/placeholder.jpg" alt="" class="proyect-img">
-      <h3>Project Title</h3>
-      <p>Brief project description placeholder</p>
+    <div class="owl-carousel owl-theme carousel-container">
+      <div class="card carousel-card item">
+        <img src="img/placeholder.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title">Project title 1</h3>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <button class="project-btn mx-2" href="" data-bs-toggle="tooltip" data-bs-placement="top" title="View repository">
+            <i class="fa-brands fa-github project-icon"></i>
+          </button>
+          <button class="project-btn mx-2" href="" data-bs-toggle="tooltip" data-bs-placement="top" title="Visit Website">
+            <i class="fa-solid fa-up-right-from-square project-icon"></i>
+          </button>
+        </div>
+      </div>
+      <div class="card carousel-card item">
+        <img src="img/placeholder.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title">Project title 2</h3>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <button class="project-btn mx-2" href="" data-bs-toggle="tooltip" data-bs-placement="top" title="View repository">
+            <i class="fa-brands fa-github project-icon"></i>
+          </button>
+          <button class="project-btn mx-2" href="" data-bs-toggle="tooltip" data-bs-placement="top" title="Visit Website">
+            <i class="fa-solid fa-up-right-from-square project-icon"></i>
+          </button>
+        </div>
+      </div>
+      <div class="card carousel-card item">
+        <img src="img/placeholder.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title">Project title 3</h3>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <button class="project-btn mx-2" href="" data-bs-toggle="tooltip" data-bs-placement="top" title="View repository">
+            <i class="fa-brands fa-github project-icon"></i>
+          </button>
+          <button class="project-btn mx-2" href="" data-bs-toggle="tooltip" data-bs-placement="top" title="Visit Website">
+            <i class="fa-solid fa-up-right-from-square project-icon"></i>
+          </button>
+        </div>
+      </div>
+      <div class="card carousel-card item">
+        <img src="img/placeholder.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title">Project title 4</h3>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <button class="project-btn mx-2" href="" data-bs-toggle="tooltip" data-bs-placement="top" title="View repository">
+            <i class="fa-brands fa-github project-icon"></i>
+          </button>
+          <button class="project-btn mx-2" href="" data-bs-toggle="tooltip" data-bs-placement="top" title="Visit Website">
+            <i class="fa-solid fa-up-right-from-square project-icon"></i>
+          </button>
+        </div>
+      </div>
+      <div class="card carousel-card item">
+        <img src="img/placeholder.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title">Project title 5</h3>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <button class="project-btn mx-2" href="" data-bs-toggle="tooltip" data-bs-placement="top" title="View repository">
+            <i class="fa-brands fa-github project-icon"></i>
+          </button>
+          <button class="project-btn mx-2" href="" data-bs-toggle="tooltip" data-bs-placement="top" title="Visit Website">
+            <i class="fa-solid fa-up-right-from-square project-icon"></i>
+          </button>
+        </div>
+      </div>
+      </div>
     </div>
-    <div class="proyect-container">
-      <img src="img/placeholder.jpg" alt="" class="proyect-img">
-      <h3>Project Title</h3>
-      <p>Brief project description placeholder</p>
-    </div>
-    <div class="proyect-container">
-      <img src="img/placeholder.jpg" alt="" class="proyect-img">
-      <h3>Project Title</h3>
-      <p>Brief project description placeholder</p>
-    </div>
+
   </section>
+
 
 
   <section id="contact-section">
@@ -137,10 +195,14 @@
         <label for="inputMsg">Message:</label>
         <textarea id="inputMsg" rows="8" cols="20"></textarea>
       </div>
+      <button type="submit" class="btn btn-dark">Send</button>
     </form>
   </section>
-  <!-- Swiper JS Import -->
-  <script src="js/swiper-bundle.min.js" charset="utf-8"></script>
+
+  <!-- jQuery Import -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <!-- Owl Carousel Import -->
+  <script src="js/owl.carousel.min.js" charset="utf-8"></script>
   <!-- Javascript -->
   <script src="js/script.js" charset="utf-8"></script>
 </body>
