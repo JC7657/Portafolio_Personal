@@ -4,12 +4,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="img/favicon.png">
   <!-- Font Awesome Import -->
   <script src="https://kit.fontawesome.com/98b31331fd.js" crossorigin="anonymous"></script>
   <!-- Google Fonts Imports -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;700&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;700&family=Cabin&family=Montserrat:wght@300;400&family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
   <!-- Owl Carousel CSS Import -->
   <link rel="stylesheet" href="css/owl.carousel.css">
   <link rel="stylesheet" href="css/owl.theme.default.css">
@@ -104,7 +105,7 @@
   </section>
 
   <!-- Portfolio Section -->
-  <section id="projects-section" class="colored-section">
+  <section id="projects-section" class="colored-section container-fluid">
     <h2>My Portfolio</h2>
     <div class="owl-carousel owl-theme carousel-container">
       <div class="card carousel-card item">
@@ -172,32 +173,55 @@
           </button>
         </div>
       </div>
-      </div>
+    </div>
     </div>
 
   </section>
 
 
 
-  <section id="contact-section">
-    <h2>Contact Me</h2>
-    <h3>Let's work together!</h3>
-    <form class="" action="index.html" method="post">
-      <div class="mb-3">
-        <label for="inputName">Full Name:</label>
-        <input type="text" id="inputName">
+  <section id="contact-section" class="white-section container-fluid">
+    <div class="row main-content">
+      <div class="col-lg contact-form-container">
+        <h2>Contact Me</h2>
+        <h3>If you want to work together or just say hi!</h3>
+        <form action="index.html" method="post" class="contact-form">
+          <div class="row">
+            <div class="col-lg">
+              <div class="mb-3">
+                <label for="inputName" class="form-label">Full Name:</label>
+                <input type="text" id="inputName" class="form-control" placeholder="Your Name...">
+              </div>
+            </div>
+            <div class="col-lg">
+              <div class="mb-3">
+                <label for="inputEmail" class="form-label">E-mail:</label>
+                <input type="email" id="inputEmail" class="form-control" placeholder="Your Email...">
+              </div>
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="inputMsg" class="form-label">Message:</label>
+            <textarea id="inputMsg" class="form-control" rows="7" placeholder="Your Message..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-submit">Send</button>
+        </form>
       </div>
-      <div class="mb-3">
-        <label for="inputEmail">E-mail:</label>
-        <input type="text" id="inputEmail">
+      <div class="col-lg contact-img-container">
+        <img src="img/contact-img.png" class="contact-img">
       </div>
-      <div class="mb-3">
-        <label for="inputMsg">Message:</label>
-        <textarea id="inputMsg" rows="8" cols="20"></textarea>
-      </div>
-      <button type="submit" class="btn btn-dark">Send</button>
-    </form>
+    </div>
   </section>
+
+  <section id="footer-section" class="white-section">
+    <div class="footer-icon-container">
+      <a class="footer-icon" href=""><i class="fa-brands fa-github"></i></a>
+      <a class="footer-icon" href=""><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+    <p class="footer-paragraph">Made with ❤️ by Juan Jerez</p>
+    <p class="footer-paragraph">Santiago - Chile</p>
+  </section>
+
 
   <!-- jQuery Import -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>

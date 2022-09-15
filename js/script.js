@@ -23,6 +23,9 @@ $('.owl-carousel').owlCarousel({
 //Skill Icons Click Animation
 $(".skill-img").mousedown(function(event) {
   $(event.target).addClass("skill-img-rotated");
+  setTimeout(function(){
+    $(event.target).removeClass("skill-img-rotated");
+  }, 6000)
 })
 
 $(".skill-img").mouseup(function(event) {
