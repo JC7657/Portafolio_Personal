@@ -198,6 +198,13 @@ h2 {
   width:75%;
   margin: auto;
 }
+.owl-item {
+  padding: 1%;
+  transition: 0.2s;
+}
+.owl-item:hover {
+  transform: scale(1.05);
+}
 .carousel-container {
   padding-top: 3%;
 }

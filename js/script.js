@@ -1,3 +1,7 @@
+//AOS Init
+$(function() {
+  AOS.init();
+});
 // Owl Carousel Script
 $(document).ready(function(){
 $('.owl-carousel').owlCarousel({
