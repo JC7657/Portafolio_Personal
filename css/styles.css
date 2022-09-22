@@ -218,6 +218,11 @@ h2 {
   height: 50px;
   background-color: transparent;
   color: white;
+  transition: 0.2s;
+}
+.project-btn:hover {
+  background-color: white;
+  color: black;
 }
 .project-icon {
   font-size: 2rem;
@@ -273,7 +278,7 @@ h2 {
   font-size: 3rem;
   margin: 0 2%;
   color:#baae9b;
-  transition:0.2s;
+  transition:0.25s;
 }
 .footer-icon:hover {
   color:#ccbea7;
