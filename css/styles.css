@@ -51,6 +51,19 @@ h2 {
 }
 
 /*Navbar*/
+.dropdown-menu {
+  width:10px;
+  margin: auto;
+}
+.dropdown-toggle {
+  color: white;
+  border: 1px white solid
+}
+.dropdown-toggle:hover {
+  color: black!important;
+  background-color: white!important;
+  border: 1px white solid!important
+}
 .navbar {
   padding-top: 3%
 }
@@ -64,6 +77,9 @@ h2 {
 
 .navbar-nav {
   margin-left: auto;
+}
+.lang-switch-container {
+  position: relative;
 }
 
 .logo {
