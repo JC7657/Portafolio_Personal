@@ -20,7 +20,7 @@ var data = {
     "portfolio": "Portfolio",
     "contact": "Contact",
     "language": "Language",
-    "profession": "Front-End Developer",
+    "profession": "Full-Stack Developer",
     "phrase":
       "I make websites according to your needs. A place where your ideas become a reality.",
     "cv": "Download CV",
@@ -47,7 +47,7 @@ var data = {
     "portfolio": "Portafolio",
     "contact": "Contacto",
     "language": "Idioma",
-    "profession": "Desarrollador Front-end",
+    "profession": "Desarrollador Full-Stack",
     "phrase":
       "Creo sitios webs acorde a tus necesidades. Un lugar donde tus ideas se vuelven una realidad.",
     "cv": "Descargar CV",
