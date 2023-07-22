@@ -13,7 +13,7 @@ h1 {
   line-height: 1.3;
   font-weight: 400;
   font-size: 4rem;
-  text-shadow: 3px 3px black;
+  text-shadow: 3px 3px rgb(0, 53, 72);
 }
 h2 {
   font-size: 2.5rem;
@@ -110,7 +110,7 @@ h2 {
    text-shadow: 1.5px 1.5px white;
  }
  .main-content {
-   padding-top: 10%;
+   padding-top: 5%;
  }
 .top-img {
   position: relative;
