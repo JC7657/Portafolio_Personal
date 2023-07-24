@@ -4,4 +4,4 @@ Proyecto creado para funcionar como portafolio personal y carta de presentación
 Tecnologías utilizadas hasta la fecha:<br>
 **-HTML y CSS3<br>
 -Bootstrap 5<br>
--Javascript Native and jQuery.**<br>
+-Javascript Native y jQuery.**<br>
