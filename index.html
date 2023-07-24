@@ -104,11 +104,11 @@
                 >
               </li>
               <li class="nav-item">
-                <div class="lang-switch-container lang">
+                <div class="lang-switch-container">
                   <button
                     key="language"
                     type="button"
-                    class="btn dropdown-toggle"
+                    class="btn dropdown-toggle lang"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
@@ -141,18 +141,26 @@
               become a reality.
             </p>
             <div class="container btn-container">
-              <button
-                type="button"
-                name="btnCV"
-                class="btn btn-dark btn-cv btn-lg lang"
-                key="cv"
-              >
-                Download CV
-              </button>
-              <a class="contact-icon" href="#"
+              <a target="_blank" href="https://drive.google.com/file/d/16HY-DPh807WuHBKdZnUwLaA2FRxs8_jm/view?usp=drive_link">
+                <button
+                  type="button"
+                  name="btnCV"
+                  class="btn btn-dark btn-cv btn-lg lang"
+                  key="cv"
+                >
+                  Download CV
+                </button>
+              </a>
+              <a
+                class="contact-icon"
+                href="https://github.com/JC7657"
+                target="”_blank”"
                 ><i class="fa-brands fa-github"></i
               ></a>
-              <a class="contact-icon" href="#"
+              <a
+                class="contact-icon"
+                href="https://www.linkedin.com/in/juan-jerez-vel%C3%A1squez-67324a19b/"
+                target="”_blank”"
                 ><i class="fa-brands fa-linkedin"></i
               ></a>
             </div>
@@ -173,7 +181,8 @@
       <div class="about-info" data-aos="fade-up">
         <h2 key="about-header" class="lang">About me</h2>
         <p key="about-desc" class="big-paragraph lang">
-          I'm a Web Developer from Chile, and a student of the Analyst Programmer career.
+          I'm a Web Developer from Chile, and a student of the Analyst
+          Programmer career.
           <br />
           I started learning the basics of programming in 2020, and in 2022 I
           began specializing in the world of web development.
@@ -259,8 +268,9 @@
           <div class="card-body">
             <h3 class="card-title">Fuente Nórdica - Landing Page</h3>
 
-            <p class="card-text" key="fte-nordica-desc">
-              Landing page del restobar ficticio "La fuente nórdica", hecho en Django para experimentar con plantillas  
+            <p class="card-text lang" key="fte-nordica-desc">
+              Landing page del restobar ficticio "La fuente nórdica", hecho en
+              Django para experimentar con plantillas
             </p>
             <button
               class="project-btn mx-2"
@@ -284,9 +294,40 @@
             </button>
           </div>
         </div>
+        <div class="card carousel-card item" data-aos="zoom-in">
+          <img src="./img/project3.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h3 class="card-title">Personal Website</h3>
+
+            <p class="card-text lang" key="portafolio-desc">
+              ¡Esta misma página! Sitio para presentar tu perfil profesional,
+              proyectos, habilidades, etc.
+            </p>
+            <button
+              class="project-btn mx-2"
+              key="github-btn"
+              onclick='window.open("https://github.com/JC7657/Portafolio_Personal/")'
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="View repository"
+            >
+              <i class="fa-brands fa-github project-icon"></i>
+            </button>
+            <button
+              class="project-btn mx-2"
+              key="open-btn"
+              onclick='window.open("https://jc7657.github.io/Portafolio_Personal/")'
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="Visit Website"
+            >
+              <i class="fa-solid fa-up-right-from-square project-icon"></i>
+            </button>
+          </div>
+        </div>
       </div>
     </section>
- 
+
     <section id="contact-section" class="white-section container-fluid">
       <div class="row main-content">
         <div class="col-lg contact-form-container" data-aos="fade-right">
@@ -294,14 +335,23 @@
           <h3 key="contact-subheader" class="lang">
             If you want to work together or just say hi!
           </h3>
-          <form action="" method="" class="contact-form">
+          <form
+            action="https://formspree.io/f/mzblzyrp"
+            method="POST"
+            class="contact-form"
+          >
             <div class="row">
               <div class="col-lg">
                 <div class="mb-3">
                   <label for="inputName" class="form-label lang" key="name"
                     >Full Name:</label
                   >
-                  <input type="text" id="inputName" class="form-control" />
+                  <input
+                    name="Nombre Completo:"
+                    type="text"
+                    id="inputName"
+                    class="form-control"
+                  />
                 </div>
               </div>
               <div class="col-lg">
@@ -309,7 +359,12 @@
                   <label for="inputEmail" class="form-label lang" key="email"
                     >E-mail:</label
                   >
-                  <input type="email" id="inputEmail" class="form-control" />
+                  <input
+                    name="Correo electrónico:"
+                    type="email"
+                    id="inputEmail"
+                    class="form-control"
+                  />
                 </div>
               </div>
             </div>
@@ -317,7 +372,12 @@
               <label for="inputMsg" class="form-label lang" key="message"
                 >Message:
               </label>
-              <textarea id="inputMsg" class="form-control" rows="7"></textarea>
+              <textarea
+                name="Mensaje:"
+                id="inputMsg"
+                class="form-control"
+                rows="7"
+              ></textarea>
             </div>
             <button type="submit" class="btn btn-submit">Send</button>
           </form>
@@ -330,13 +390,18 @@
 
     <section id="footer-section" class="white-section">
       <div class="footer-icon-container" data-aos="fade-up">
-        <a class="footer-icon" href="#"><i class="fa-brands fa-github"></i></a>
-        <a class="footer-icon" href="#"
+        <a class="footer-icon" target="_blank" href="https://github.com/JC7657"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          class="footer-icon"
+          target="_blank"
+          href="https://www.linkedin.com/in/juan-jerez-vel%C3%A1squez-67324a19b/"
           ><i class="fa-brands fa-linkedin"></i
         ></a>
       </div>
 
-      <p class="footer-paragraph" data-aos="zoom-in" key="footer">
+      <p class="footer-paragraph lang" data-aos="zoom-in" key="footer">
         Made with ❤️ by Juan Jerez
       </p>
       <p class="footer-paragraph" data-aos="zoom-in">Santiago - Chile</p>

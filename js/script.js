@@ -20,7 +20,7 @@ var data = {
     "portfolio": "Portfolio",
     "contact": "Contact",
     "language": "Language",
-    "profession": "Full-Stack Developer",
+    "profession": "Web Developer",
     "phrase":
       "I make websites according to your needs. A place where your ideas become a reality.",
     "cv": "Download CV",
@@ -32,7 +32,10 @@ var data = {
     "github-btn": "Ver repositorio",
     "open-btn": "Visitar sitio",
     "quiz-time-desc":
-      "A simple trivia game website. You can answer ten question from the category of your choosing. Built using Javascript API Fetch.",
+    "A simple trivia game website. You can answer ten question from the category of your choosing. Built using Javascript API Fetch.",
+    "fte-nordica-desc": 
+    "Landing page for a mock bar called 'Fuente Nórdica', built using Django for experimenting with templates.",
+    "portafolio-desc": "This page itself! Website to showcase my professional profile, including proyects, skills, etc.",
     "contact": "Contact Me",
     "contact-subheader": "If you want to work together or just say hi!",
     "name": "Full Name",
@@ -47,7 +50,7 @@ var data = {
     "portfolio": "Portafolio",
     "contact": "Contacto",
     "language": "Idioma",
-    "profession": "Desarrollador Full-Stack",
+    "profession": "Desarrollador Web",
     "phrase":
       "Creo sitios webs acorde a tus necesidades. Un lugar donde tus ideas se vuelven una realidad.",
     "cv": "Descargar CV",
@@ -59,7 +62,10 @@ var data = {
     "github-btn": "Ver repositorio",
     "open-btn": "Visitar sitio",
     "quiz-time-desc":
-      "Una página web simple de juego estilo trivia. Puedes responder diez preguntas de la categoría de tu elección. Utiliza Fetch API de Javascript",
+    "Una página web simple de juego estilo trivia. Puedes responder diez preguntas de la categoría de tu elección. Utiliza Fetch API de Javascript",
+    "fte-nordica-desc": 
+    "Landing page del restobar ficticio 'La fuente nórdica', hecho en Django para experimentar con plantillas.",
+    "portafolio-desc": "¡Esta misma página! Sitio para presentar mi perfil profesional, incluyendo proyectos, habilidades, etc.",
     "contact": "Contáctame",
     "contact-subheader": "¡Si quieres trabajar juntos o solo saludar!",
     "name": "Nombre Completo",
