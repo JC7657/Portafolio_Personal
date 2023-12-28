@@ -26,7 +26,7 @@ var data = {
     "cv": "Download CV",
     "about-header": "About me",
     "about-desc":
-      "I'm a 22 year old Web Developer from Chile, also a graduated Analyst Programmer. I started learning the basics of programming in 2020, and in 2022 I began specializing in the world of web development. I make beautiful and responsive websites that will capture your vision and ideas.",
+      "I'm a 23 year old Web Developer from Chile, also a graduated Analyst Programmer. I started learning the basics of programming in 2019, where I began specializing in the world of web development. I make beautiful and responsive websites that will capture your vision and ideas.",
     "skills": "My Skills",
     "portfolio": "My Portfolio",
     "github-btn": "Ver repositorio",
@@ -56,7 +56,7 @@ var data = {
     "cv": "Descargar CV",
     "about-header": "Sobre mí",
     "about-desc":
-      "Soy un Desarrollador Web de 22 años proveniente de Chile, además de Analista Programador graduado. Comencé a aprender las bases de la programación de 2020, y en 2022 me empecé a especializar en el mundo del desarrollo web. Construyo páginas web atractivas y responsivas que capturarán tu visión e ideas.",
+      "Soy un Desarrollador Web de 23 años proveniente de Chile, además de Analista Programador graduado. Comencé a aprender las bases de la programación de 2019, y me empecé a especializar en el mundo del desarrollo web. Construyo páginas web atractivas y responsivas que capturarán tu visión e ideas.",
     "skills": "Mis Habilidades",
     "portfolio": "Mi Portafolio",
     "github-btn": "Ver repositorio",
